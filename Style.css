@@ -403,3 +403,115 @@ nav ul{
     float:right
     
 }
+/* Join */
+
+/* join left */
+.Join{
+    margin: 100px 0;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+    padding: 0 30px;
+
+}
+.Join .im1{
+    width: 50%;
+}
+.Join .im2{
+    width: 50%;
+}
+.Join .im1 img{
+    height: 300px;
+    width: 350px;
+}
+/* Join right */
+.Join .im2 h2{
+    color: #090725;
+    font-size: 27px;
+    font-weight:bold;
+}
+.Join .im2 p{
+    color: #5f5c5e;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+.Join .im2 button{
+    border:none;
+    background-color: #E22E6D;
+    color: white;
+    font-size: 13px;
+    padding: 15px 30px;
+    margin-top: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+/* Search */
+.search .bg{
+    background-color: #E14972;
+    height: 400px;
+    width: 100%;
+    background-image: url(./images/1600.htm);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    
+}
+.search .tp{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.search .bg h1{
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    color: white;
+}
+.search .tp input{
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #37d7e6;
+}
+.search .tp button{
+    border:none;
+    background-color: #E22E6D;
+    color: white;
+    font-size: 15px;
+    padding: 15px 25px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* Footer */
+.footer{
+    height: 30vh;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.footer ul{
+    list-style: none;
+    gap: 15px;
+    display: flex
+}
+.footer h3{
+    margin-bottom: 10px;
+}
+.footer .p1{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.footer .p2{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
