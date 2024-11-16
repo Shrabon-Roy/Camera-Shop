@@ -89,12 +89,10 @@ nav ul{
     align-items: center;
 }
 /* Header */
-.warp{
-    height: 0px;
-    width: 0px;
-    background-image:ur
-    background-repeat: no-repeat;
-    background-size: cover;
+.header-bottom .warp{
+    height: 500px;
+    width: 500px;
+    background-image: url(./Images/cover\ pic-1.avif);
 }
 
 /* main-2 */
