@@ -60,7 +60,10 @@ nav .hov li{
 .hov li:hover::after{
     width: 100%;
 }
-
+ .none a{
+    text-decoration: none;
+    color: inherit;
+ }
 /* Uppernav */
 .uppernav ul{
     display: flex;
@@ -69,6 +72,7 @@ nav .hov li{
     gap: 7px;
     color: white;
 }
+
 /* Lowernav */
 .lowernav{
     gap: 15px;
@@ -199,6 +203,7 @@ nav ul{
     width: 235px;
     height: 230px;
     padding: 15px 15px;
+    align-content: center;
     
 }
 .bgd-2 .rating-2{

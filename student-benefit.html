@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Benefit</title>
+  <link rel="stylesheet" href="Style2x.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">Stationery Hub</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#" class="active">Student Benefit</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Student Benefit</h1>
+    <p>Enter your roll number to check your discount eligibility.</p>
+    <form id="studentForm">
+      <label for="rollNumber">Roll Number:</label>
+      <input type="text" id="rollNumber" name="rollNumber" placeholder="Enter your roll number" required>
+      <button type="button" id="checkBenefit">Check Benefit</button>
+    </form>
+    <div id="result"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
